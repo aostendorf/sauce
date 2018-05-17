@@ -28,17 +28,13 @@ body {
   text-transform: lowercase;
 }
 
-.photo-grid-container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-} 
-
 .photo-grid {
-  width: 900px;
   display: flex;
+  justify-content: space-around;
 }
+
+}
+
 .row {
   background: rgba(38, 38, 38, 0.95);
   min-width: 960px;
@@ -47,7 +43,8 @@ body {
 }
 
 
-.photo{
+.photo {
+  flex-direction: row;
   width: auto;
   height: 200px;
   border: 1px solid #FFF;
