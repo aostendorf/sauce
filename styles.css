@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("images/wood_background.jpg");
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-top: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+}
+
+.navigator {
+  margin: 30px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+} 
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+}
+.row {
+  background: rgba(38, 38, 38, 0.95);
+  min-width: 960px;
+  height: 70px;
+  margin: 30px;
+}
+
+
+.photo{
+  width: auto;
+  height: 200px;
+  border: 1px solid #FFF;
+}
